@@ -1,8 +1,28 @@
 <html>
+
 <head>
-  <title>Enso's Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>My OTA Tech Class</h1>
+  <h1 id="pageTitle">m̴̛̼͎̤̉̀̊̔͘y-games<span id="cursor">_</span>
+    <script>
+        var cursor = true;
+        var speed = 750;
+        setInterval(() => {
+          if(cursor) {
+            document.getElementById('cursor').style.opacity = 0;
+            cursor = false;
+          }else {
+            document.getElementById('cursor').style.opacity = 1;
+            cursor = true;
+          }
+        }, speed);
+    </script></h1>
+  <div id="links">
+    <a href="/yahtzee">yä̷̸̧̲̤̘̼̪͓̤̮́̇̎̈́̓͒́̌̓̄̀htzee</a>
+  </div>
 </body>
+
 </html>

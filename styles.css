@@ -1,0 +1,25 @@
+body{
+  padding:20px;
+  font-family:monospace;
+  color:#02ff00;
+  background-color:000000;
+}
+#pageTitle{
+  text-align:center;
+}
+#links{
+  margin:40px auto;
+  max-width:100;
+}
+#links > a{
+  display:block;
+  text-align:center;
+  border:2.5px solid #02ff00;
+  padding:10px;
+  text-decoration:none;
+  color:#02ff00;
+}
+#links > a:hover{
+  background:#02ff00;
+  color:#000000;
+}
