@@ -1,11 +1,12 @@
 body{
   padding:20px;
   font-family:monospace;
+  font-size:20px;
   color:#02ff00;
   background-color:000000;
 }
 #pageTitle{
-  text-align:center;
+  text-align:left;
 }
 #links{
   margin:40px auto;
@@ -14,12 +15,12 @@ body{
 #links > a{
   display:block;
   text-align:center;
-  border:2.5px solid #02ff00;
-  padding:10px;
+  border:1px solid #02ff00;
   text-decoration:none;
   color:#02ff00;
 }
 #links > a:hover{
   background:#02ff00;
+  border:2.5px solid #000000;
   color:#000000;
 }

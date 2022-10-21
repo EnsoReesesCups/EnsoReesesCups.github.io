@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+.col{
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body{
+ color:#000000;
+  border:1px solid#ffffff;
+  background:#eeeeee;
+  font-size:20px;
+  background-size: cover;
+}
+img{
+  width:40%;
+  height:auto;
+  margin-left:auto;
+}
+.imgCenter{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.container{
+  color:#ffffff;
+  border:1px solid#000000;
+  background:linear-gradient(to right, #257ac1, #010080);
+  font-size:15px;
+  margin:0auto;
+  height:20px;
+ display:flex;
+}
+.container img{
+  width:60px
+}
+h1{
+  text-align:center;
+  font-size:60px;
+  margin-top:0;
+}
+#dice{
+  margin:20px 0 20px 0;
+}
+
+.dieHolder{
+  width: 20%;
+  text-align:center;
+}
+
+.die{
+  padding:10px;
+  margin:10px;
+  cursor: pointer;
+}
+
+#rollButton{
+  background:#000000;
+  color:#02ff00;
+  border:1px solid #02ff00;
+  display:block;
+  width:100%;
+  padding:10px 0 10px 0px;
+  margin:20px 0 20px 0;
+  font-size:20px;
+  font-family:monospace
+}
+
+#rollButton:hover{
+  background:#02ff00;
+  color:#000000;
+  border:1px solid #000000;
+  cursor:pointer;
+}
+
+.rollType{
+  width: 10%;
+  text-align:center;
+  font-weight:bold;
+}
+
+.diceCount{
+  width: 20%;
+  text-align:center;
+}
+
+.score{
+  width: 20%;
+  text-align:center;
+}
+
+#scoreCard{
+  border-top:3px double #02ff00;
+  padding-top:20px;
+  margin-top:60px;
+}
+
+#scoreCard > .row{
+  
+  padding:20px 0 20px 0;
+  border-bottom:1px solid #02ff00;
+}
+
+.headerRow{
+  font-weight:bold;
+  font-size:1.25rem;
+}
+
+#grandTotalRow{
+  background:#000000;
+  color:#02ff00;
+}
+
+#grandTotalLabel{
+  text-align:right;
+  font-weight:bold;
+  width:30%;
+  
+}
+
+#totalScore{
+  width:20%;
+  text-align:center;
+  font-weight:bold;
+  
+}
